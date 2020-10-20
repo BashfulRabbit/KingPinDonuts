@@ -21,6 +21,24 @@ header {
 }
 
 
+@media (min-width: 1200px) {
+    body {
+        zoom: 0.66667;
+    }
+}
+
+@media (min-width: 1500px) {
+    body {
+        zoom: 0.8;
+    }
+}
+
+@media (min-width: 1900px) {
+    body {
+        zoom: 1;
+    }
+}
+
 .content {
     margin: 0;
     width: 100%;
@@ -48,29 +66,33 @@ header {
 }
 
 .donutimg {
-  width: 100%;
+    width: 100%;
 }
 
-input[type=text], textarea{
+input[type=text],
+textarea {
     width: 100%;
-    border: 2px solid	#E6E6FA;
+    border: 2px solid #E6E6FA;
     padding: 12px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
-#email, #fname, #lname, #comments{
-  margin-bottom: : 60px;
+#email,
+#fname,
+#lname,
+#comments {
+    margin-bottom: : 60px;
 }
 
 .col {
-  display:flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  float: left;
-  width: 30%;
-  margin-top: 6px;
-  padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+    padding: 20px;
 }
 
 
@@ -84,16 +106,16 @@ input[type=text], textarea{
 }
 
 input[type=submit] {
-  background-color: #E6E6FA;
-  border-radius: 10px;
-  color: black;
-  padding: 12px 20px;
-  border: px solid	black;
-  cursor: pointer;
+    background-color: #E6E6FA;
+    border-radius: 10px;
+    color: black;
+    padding: 12px 20px;
+    border: px solid black;
+    cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #DCDCDC;
+    background-color: #DCDCDC;
 }
 
 

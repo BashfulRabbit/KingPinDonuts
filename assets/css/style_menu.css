@@ -20,6 +20,24 @@ header {
   align-items: center;
 }
 
+@media (min-width: 1200px) {
+  body {
+    zoom: 0.66667;
+  }
+}
+
+@media (min-width: 1500px) {
+  body {
+    zoom: 0.8;
+  }
+}
+
+@media (min-width: 1900px) {
+  body {
+    zoom: 1;
+  }
+}
+
 
 .content {
   margin: 0;
