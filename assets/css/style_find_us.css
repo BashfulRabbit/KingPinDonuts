@@ -51,9 +51,12 @@ header {
 
 .content>a {
     color: black;
-    font-size: 30px;
+    font-size: 40px;
     opacity: 0.7;
     text-decoration: none;
+    display: block;
+    text-shadow: 1px 1px 0 #797575;
+    text-align: center;
 }
 
 .content>a:hover {
@@ -93,10 +96,12 @@ textarea {
     width: 30%;
     margin-top: 6px;
     padding: 20px;
+    font-size: 25px;
 }
 
 
 .content1 {
+    font-size: 25px;
     margin: 0;
     width: 100%;
     display: flex;
@@ -106,6 +111,7 @@ textarea {
 }
 
 input[type=submit] {
+    font-size: 20px;
     background-color: #E6E6FA;
     border-radius: 10px;
     color: black;
@@ -115,6 +121,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
+    font-size: 20px;
     background-color: #DCDCDC;
 }
 
@@ -125,7 +132,7 @@ input[type=submit]:hover {
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     /* border-style: solid; */
     /*border-color: violet;*/
 }

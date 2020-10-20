@@ -51,9 +51,12 @@ header {
 
 .content>a {
   color: black;
-  font-size: 30px;
+  font-size: 40px;
   opacity: 0.7;
   text-decoration: none;
+  display: block;
+  text-shadow: 1px 1px 0 #797575;
+  text-align: center;
 }
 
 .content>a:hover {
@@ -67,7 +70,7 @@ header {
 
 #menu {
   margin-top: 50px;
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
 }
 
@@ -84,6 +87,7 @@ img {
 }
 
 .container1 {
+  font-size: 25px;
   list-style-type: none;
   margin-top: 30px;
   display: flex;
@@ -92,6 +96,7 @@ img {
 }
 
 .container2 {
+  font-size: 25px;
   list-style-type: none;
   margin-top: 50px;
   display: flex;
@@ -104,6 +109,7 @@ img {
 }
 
 .container3 {
+  font-size: 25px;
   list-style-type: none;
   margin-top: 50px;
   display: flex;
@@ -112,6 +118,7 @@ img {
 }
 
 .container4 {
+  font-size: 25px;
   list-style-type: none;
   margin-top: 50px;
   display: flex;
@@ -141,7 +148,7 @@ img {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   /* border-style: solid; */
   /*border-color: violet;*/
 }
@@ -152,6 +159,7 @@ img {
 }
 
 #price {
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -161,8 +169,9 @@ img {
 
 #discount {
   padding-top: 50px;
-  color: royalblue;
-  font-size: 30px;
+  font-weight: bold;
+  color: #d67d00;
+  font-size: 35px;
   display: flex;
   justify-content: center;
 }
