@@ -127,17 +127,16 @@ input[type=submit]:hover {
 
 
 #contact {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 30px;
-    /* border-style: solid; */
-    /*border-color: violet;*/
+    background: #2B303A;
+    height: 100px;
+    margin: 0 auto;
 }
 
-#contact>a:hover {
-    text-decoration: underline;
-    cursor: pointer;
+#contact p {
+    position: relative;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: #ECE4F1;
+    text-align: center;
+    top: 28px;
 }
